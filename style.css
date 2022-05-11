@@ -11,6 +11,14 @@ body{
 }
 
 @media all and (max-width: 500px;) {
+
+    .deal-img{
+        min-width:80px;
+        max-height: 150px; 
+        float:left;
+        margin-right:20px;
+        border: 5px solid #555;
+
     .deal-img2{
         min-width:80px;
         max-height: 150px; 
@@ -20,7 +28,7 @@ body{
         }
         
         .deal-img3{
-        min-width:800px;
+        min-width:80px;
         max-height: 150px; 
         float:left;
         margin-right:20px;
@@ -36,7 +44,7 @@ body{
         }
         
         .deal-img5{
-        min-width:800px;
+        min-width:80px;
         max-height: 150px; 
         float:left;
         margin-right:20px;
@@ -44,7 +52,7 @@ body{
         }
         
         .deal-img6{
-        min-width:800px;
+        min-width:80px;
         max-height: 150px; 
         float:left;
         margin-right:20px;
@@ -52,7 +60,7 @@ body{
         }
         
         .deal-img7{
-        min-width:800px;
+        min-width:80px;
         max-height: 150px; 
         float:left;
         margin-right:20px;
@@ -209,8 +217,8 @@ p{
 @media all and (max-width: > 800px){
 
 .deal-img{
-    min-width:190px;
-    max-height: 300px; 
+    min-width:130px;
+    max-height: 230px; 
     float:left;
     margin-right:20px;
     border: 5px solid #555;
@@ -385,10 +393,10 @@ border: 5px solid #555;
 }
 
 .footer h3{
-    font-size: 20;
+    font-size: 20px;
     color: white;
     margin-bottom: 20px;   
-    min-width: 10;
+    min-width: 10px;
 }
 
 .footerColumn1, .footerColumn2, .footerColumn3 {
