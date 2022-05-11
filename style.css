@@ -1,0 +1,342 @@
+*{
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.shopCart{
+  display: inline-block;
+  border: 1px solid #555;
+  min-width: 50px;
+  max-height: 60px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 25px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #543;
+}
+
+p{
+    color: #543;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* hero image */
+
+.hero{
+    background-image: url("hero.jpeg");
+    height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hero-text{
+    text-align: right;
+    position: absolute;
+    margin-top: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-250%,-60%);
+    color: black;
+    font-size: 20px;
+    }
+
+  .webName {
+      margin-left: auto;
+      margin-right: auto;
+      width: 900px;
+  }
+
+.subheading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: right;
+    color: grey;
+}
+
+.gladShins{
+    margin-left: 1px;
+}
+
+.logo{
+   min-width:140px;
+   max-height:144px;
+   padding: 1px;
+   margin-bottom: 0px;
+}
+
+.btn {
+    display: inline-block;
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #563433
+}
+
+
+
+.deal-img2{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img3{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img4{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img5{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img6{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img7{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img8{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img9{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img10{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal-img11{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555; 
+}
+
+.deal-img12{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+ .row{
+    display:flex;
+}
+
+.categories {
+    margin: 50px 0;
+}
+
+.column{
+    float: left;
+    min-width: 190px;
+    margin-bottom: 20px;
+}
+
+.column img{
+    width: 80%;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin:auto;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.feat1{
+    margin-top:80px;
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    font-size: 25px;
+}
+
+.title::after{
+    content: '';
+    background: orange;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 46%;
+    transform: translate(-900);
+}
+
+.deal-img{
+min-width:190px;
+max-height: 300px; 
+float:left;
+margin-right:20px;
+border: 5px solid #555;
+}
+
+.deal{
+    background: radial-gradient(#fff, #d6f7ff);
+    margin-top:10px;
+    margin-left: 20px;
+    padding: 30px 0;
+}
+
+
+
+.column2{
+    float: left;
+    min-width: 200px;
+    max-height:600px;
+}
+
+/* footer */
+
+.footer{
+    background: black;
+    color: #8a8a8a;
+    font-size:13px;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: lightgrey;
+    min-width: 10;
+}
+
+.footer h3{
+    font-size: 20;
+    color: white;
+    margin-bottom: 20px;   
+    min-width: 10;
+}
+
+.footerColumn1, .footerColumn2, .footerColumn3 {
+    min-width: 150px;
+    margin-bottom: 10px;
+}
+
+.footerColumn1{
+    flex-basis: 30%;
+}
+
+.footerColumn2{
+    flex:auto;
+    padding:0;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.footerColumn3{
+    flex-basis: 30%;
+    text-align: right;
+    float: right;
+}
+
+.youtubeLogo{
+min-width:77px;
+max-height: 77px; 
+}
+
+.btnCart {
+    display: inline-block;
+    background: rgb(241, 132, 132);
+    color: black;
+    padding: 10px 20px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background .6s;
+}
+
+.btnCart:hover{
+    background: black;
+    color: white;
+}
