@@ -10,6 +10,97 @@ body{
 
 }
 
+@media all and (max-width: 500px;) {
+    .deal-img2{
+        min-width:80px;
+        max-height: 150px; 
+        float:left;
+        margin-right:20px;
+        border: 5px solid #555;
+        }
+        
+        .deal-img3{
+        min-width:800px;
+        max-height: 150px; 
+        float:left;
+        margin-right:20px;
+        border: 5px solid #555;
+        }
+        
+        .deal-img4{
+        min-width:80px;
+        max-height: 150px; 
+        float:left;
+        margin-right:20px;
+        border: 5px solid #555;
+        }
+        
+        .deal-img5{
+        min-width:800px;
+        max-height: 150px; 
+        float:left;
+        margin-right:20px;
+        border: 5px solid #555;
+        }
+        
+        .deal-img6{
+        min-width:800px;
+        max-height: 150px; 
+        float:left;
+        margin-right:20px;
+        border: 5px solid #555;
+        }
+        
+        .deal-img7{
+        min-width:800px;
+        max-height: 150px; 
+        float:left;
+        margin-right:20px;
+        border: 5px solid #555;
+        }
+        
+        .deal-img8{
+        min-width:80px;
+        max-height: 150px; 
+        float:left;
+        margin-right:20px;
+        border: 5px solid #555;
+        }
+        
+        .deal-img9{
+        min-width:80px;
+        max-height: 150px; 
+        float:left;
+        margin-right:20px;
+        border: 5px solid #555;
+        }
+        
+        .deal-img10{
+        min-width:80px;
+        max-height: 150px; 
+        float:left;
+        margin-right:20px;
+        border: 5px solid #555;
+        }
+        
+        .deal-img11{
+        min-width:80px;
+        max-height: 150px; 
+        float:left;
+        margin-right:20px;
+        border: 5px solid #555; 
+        }
+        
+        .deal-img12{
+        min-width:80px;
+        max-height: 150px; 
+        float:left;
+        margin-right:20px;
+        border: 5px solid #555;
+        }
+        
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -115,7 +206,15 @@ p{
     background: #563433
 }
 
+@media all and (max-width: > 800px){
 
+.deal-img{
+    min-width:190px;
+    max-height: 300px; 
+    float:left;
+    margin-right:20px;
+    border: 5px solid #555;
+    }
 
 .deal-img2{
 min-width:190px;
@@ -204,6 +303,7 @@ float:left;
 margin-right:20px;
 border: 5px solid #555;
 }
+}
 
  .row{
     display:flex;
@@ -253,14 +353,6 @@ border: 5px solid #555;
     bottom: 0;
     left: 46%;
     transform: translate(-900);
-}
-
-.deal-img{
-min-width:190px;
-max-height: 300px; 
-float:left;
-margin-right:20px;
-border: 5px solid #555;
 }
 
 .deal{
